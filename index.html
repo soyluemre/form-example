@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="netflx.png">
     <title>Netflix Form</title>
 </head>
     <body>
@@ -14,20 +15,20 @@
                  </div>
 
             <div class="showcase-content">
-                <div class="formm">
+                <div class="form">
                     <form>
                         <div class="info">
                             <input class="email" type="name" placeholder="Name"> <br>
                             <input class="email" type="age" placeholder="Age">
                             <input class="email" type="email" placeholder="Email"> <br>
-                            <select id="select" name="list" form="carform">
+                            <select id="select" name="list" form="list">
                             <option value="series">Series</option>
                             <option value="movies">Movies</option>
-                            <option value="cult">Cult Movies</option>
+                            <option value="cartoon">Cartoon</option>
                             <option value="documentary">Documentary</option>
                             </select>
 
-                            <div class="checkbox">
+                        <div class="checkbox">
 
                             <div class="checkbox1">
                             <p>Movie Type</p>
@@ -38,18 +39,22 @@
                             <input type="checkbox" id="vehicle3" name="vehicle3" value="Romance">
                             <label for="vehicle3">Romance</label><br><br>
                             </div>
+
                             <div class="checkbox2"> 
                             <p>Gender</p>
-                            <input type="checkbox" id="vehicle4" name="male" value="male">
-                            <label for="vehicle4">Male</label><br>
-                            <input type="checkbox" id="vehicle5" name="vehicle2" value="Action">
-                            <label for="vehicle5">Female</label><br>
-                            <input type="checkbox" id="vehicle6" name="vehicle3" value="Romance">
-                            <label for="vehicle6">Other</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label><br>
+
+                            <input type="radio" id="female" name="gender" value="Action">
+                            <label for="female">Female</label><br>
+
+                            <input type="radio" id="other" name="gender" value="Romance">
+                            <label for="other">Other</label>
                             </div>
                             </div>
                             <p><label for="textarea">Feed Back</label></p>
-                            <textarea id="textarea" name="w3review" placeholder=" Any Comment.."></textarea>
+                            <textarea id="textarea" name="FeedBack" placeholder=" Any Comment.."></textarea>
+
                         </div>
                         <div class="btn">
                             <button class="btn-primary" type="submit">Submit</button>
@@ -60,6 +65,6 @@
                 </div>
                 </div>
             </div>
-        </div>
+    </div>
     </body>
 </html>
